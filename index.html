@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="noindex, nofollow">
+
+    <meta name="theme-color" content="#f7f9f7">
+
+    <title>Conectando você | Adesa Empreendimentos</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+    <!-- Carrega o JavaScript após o HTML ser interpretado -->
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="brand">
+            <img
+                src="./assets/logo-adesa.png"
+                alt="Adesa Empreendimentos"
+                class="brand-logo"
+            >
+        </header>
+
+        <section class="content">
+
+            <!-- Estado de carregamento -->
+            <div id="loading">
+
+                <div class="spinner"></div>
+
+                <h2 id="loading-title">
+                    Estamos conectando você!
+                </h2>
+
+                <p id="status-message">
+                    Estamos encontrando um corretor para atender você.
+                </p>
+
+            </div>
+
+            <!-- Estado de erro -->
+            <div id="error" hidden>
+
+                <div class="error-icon">!</div>
+
+                <h2>Não foi possível completar a conexão.</h2>
+
+                <p id="error-message">
+                    Ocorreu um problema. Por favor, tente novamente.
+                </p>
+
+                <button id="retry-button" type="button">
+                    Tentar novamente
+                </button>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <p>Adesa Empreendimentos</p>
+        </footer>
+
+    </main>
+
+    <noscript>
+        Para continuar, habilite o JavaScript no seu navegador.
+    </noscript>
+
+</body>
+
+</html>
